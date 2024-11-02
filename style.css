@@ -1,0 +1,17 @@
+/* Fondo personalizado */
+body, canvas {
+    background: url("assets/background.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Cursor personalizado en el canvas */
+canvas {
+    cursor: url("assets/cursor.png"), auto;
+}
+
+/* Estilo del marcador de puntuación */
+#score {
+    font-size: 24px;
+    color: #fff;
+    margin-top: 10px;
+}
